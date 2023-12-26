@@ -1,5 +1,11 @@
 function shortcut(s1, s2) {
   // your code here
+	if(s1.length==0 && s2.length==0)
+	{
+      return '';		
+	}
+ const result =s1.charAt(0).toUpperCase()+s2.charAt(0).toLowerCase();
+	return result;
 }
 
 // Do not change the code below.
